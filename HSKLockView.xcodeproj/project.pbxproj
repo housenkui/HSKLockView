@@ -13,6 +13,8 @@
 		F5891EAA1D69DC1E00820319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5891EA81D69DC1E00820319 /* Main.storyboard */; };
 		F5891EAC1D69DC1E00820319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5891EAB1D69DC1E00820319 /* Assets.xcassets */; };
 		F5891EAF1D69DC1E00820319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5891EAD1D69DC1E00820319 /* LaunchScreen.storyboard */; };
+		F5891EB81D69DC5E00820319 /* HSKGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5891EB71D69DC5E00820319 /* HSKGestureLockView.m */; };
+		F5891EBC1D69DF9C00820319 /* Home_refresh_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F5891EBB1D69DF9C00820319 /* Home_refresh_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		F5891EAB1D69DC1E00820319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5891EAE1D69DC1E00820319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5891EB01D69DC1E00820319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5891EB61D69DC5E00820319 /* HSKGestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSKGestureLockView.h; sourceTree = "<group>"; };
+		F5891EB71D69DC5E00820319 /* HSKGestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSKGestureLockView.m; sourceTree = "<group>"; };
+		F5891EBB1D69DF9C00820319 /* Home_refresh_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_refresh_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 		F5891E931D69DC1D00820319 = {
 			isa = PBXGroup;
 			children = (
+				F5891EBB1D69DF9C00820319 /* Home_refresh_bg.png */,
 				F5891E9E1D69DC1E00820319 /* HSKLockView */,
 				F5891E9D1D69DC1E00820319 /* Products */,
 			);
@@ -67,6 +73,8 @@
 				F5891EAD1D69DC1E00820319 /* LaunchScreen.storyboard */,
 				F5891EB01D69DC1E00820319 /* Info.plist */,
 				F5891E9F1D69DC1E00820319 /* Supporting Files */,
+				F5891EB61D69DC5E00820319 /* HSKGestureLockView.h */,
+				F5891EB71D69DC5E00820319 /* HSKGestureLockView.m */,
 			);
 			path = HSKLockView;
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5891EAF1D69DC1E00820319 /* LaunchScreen.storyboard in Resources */,
+				F5891EBC1D69DF9C00820319 /* Home_refresh_bg.png in Resources */,
 				F5891EAC1D69DC1E00820319 /* Assets.xcassets in Resources */,
 				F5891EAA1D69DC1E00820319 /* Main.storyboard in Resources */,
 			);
@@ -149,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5891EB81D69DC5E00820319 /* HSKGestureLockView.m in Sources */,
 				F5891EA71D69DC1E00820319 /* ViewController.m in Sources */,
 				F5891EA41D69DC1E00820319 /* AppDelegate.m in Sources */,
 				F5891EA11D69DC1E00820319 /* main.m in Sources */,
